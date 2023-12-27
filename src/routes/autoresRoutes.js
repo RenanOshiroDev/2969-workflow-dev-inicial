@@ -1,8 +1,7 @@
 import express from 'express';
 import AutoresController from '../controllers/autoresController.js';
 const router = express.Router();
-import 'knex' from 'knex';
-teste 
+
 
 router
   .get('/autores', AutoresController.listarAutores)
